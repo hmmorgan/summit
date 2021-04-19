@@ -1,0 +1,23 @@
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 713340: <vec_ops> in cluster <summit> Done
+
+Job <vec_ops> was submitted from host <login3> by user <hmorgan> in cluster <summit> at Thu Oct 31 13:50:31 2019
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <hmorgan> in cluster <summit> at Thu Oct 31 13:50:39 2019
+                            <42*g34n10>
+</ccs/home/hmorgan> was used as the home directory.
+</gpfs/alpine/csc314/proj-shared/hmorgan/hannah-vec-ops/pinned> was used as the working directory.
+Started at Thu Oct 31 13:50:39 2019
+Terminated at Thu Oct 31 14:01:20 2019
+Results reported at Thu Oct 31 14:01:20 2019
+
+The output (if any) is above this job summary.
+

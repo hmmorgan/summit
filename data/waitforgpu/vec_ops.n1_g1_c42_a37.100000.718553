@@ -1,0 +1,33 @@
+[32]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[32]PETSC ERROR: Error in external library
+[32]PETSC ERROR: CUDA error 2
+[32]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[32]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[32]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:32:47 2019
+[32]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[32]PETSC ERROR: #1 VecCUDAAllocateCheck() line 34 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/vec/vec/impls/seq/seqcuda/veccuda2.cu
+[32]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[32]PETSC ERROR: Error in external library
+[32]PETSC ERROR: CUDA error 76
+[32]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[32]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[32]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:32:47 2019
+[32]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[32]PETSC ERROR: #2 VecCreate_MPICUDA() line 178 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/vec/vec/impls/mpi/mpicuda/mpicuda.cu
+[32]PETSC ERROR: #3 VecSetType() line 50 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/vec/vec/interface/vecreg.c
+[32]PETSC ERROR: #4 VecSetTypeFromOptions_Private() line 1224 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/vec/vec/interface/vector.c
+[32]PETSC ERROR: #5 VecSetFromOptions() line 1257 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/vec/vec/interface/vector.c
+[32]PETSC ERROR: #6 main() line 21 in hannah-vec-ops.c
+[32]PETSC ERROR: PETSc Option Table entries:
+[32]PETSC ERROR: -log_view
+[32]PETSC ERROR: -n 100000
+[32]PETSC ERROR: -vec_type mpicuda
+[32]PETSC ERROR: ----------------End of Error Message -------send entire error message to petsc-maint@mcs.anl.gov----------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 32 in communicator MPI_COMM_WORLD
+with errorcode 76.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

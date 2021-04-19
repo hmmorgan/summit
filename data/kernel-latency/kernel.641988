@@ -1,0 +1,26 @@
+kernel launch: 0.000008s, kernel duration: 0.000019s
+kernel launch: 0.000008s, kernel duration: 0.000019s
+kernel launch: 0.000007s, kernel duration: 0.000019s
+kernel launch: 0.000008s, kernel duration: 0.000020s
+kernel launch: 0.000007s, kernel duration: 0.000019s
+kernel launch: 0.000008s, kernel duration: 0.000019s
+kernel launch: 0.000008s, kernel duration: 0.000019s
+kernel launch: 0.000008s, kernel duration: 0.000020s
+kernel launch: 0.000008s, kernel duration: 0.000019s
+kernel launch: 0.000008s, kernel duration: 0.000019s
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 641988: <kernel> in cluster <summit> Done
+
+Job <kernel> was submitted from host <login1> by user <hmorgan> in cluster <summit> at Wed Sep 18 12:07:25 2019
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <hmorgan> in cluster <summit> at Wed Sep 18 12:07:45 2019
+                            <42*a01n02>
+</ccs/home/hmorgan> was used as the home directory.
+</gpfs/alpine/csc314/proj-shared/hmorgan> was used as the working directory.
+Started at Wed Sep 18 12:07:45 2019
+Terminated at Wed Sep 18 12:07:57 2019
+Results reported at Wed Sep 18 12:07:57 2019
+
+The output (if any) is above this job summary.
+

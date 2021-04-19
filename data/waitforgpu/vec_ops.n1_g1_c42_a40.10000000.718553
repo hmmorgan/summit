@@ -1,0 +1,468 @@
+[37]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[37]PETSC ERROR: Error in external library
+[37]PETSC ERROR: CUSOLVER error 7
+[37]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[37]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[37]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[37]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[37]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[37]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[37]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[37]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[37]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[11]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[11]PETSC ERROR: Error in external library
+[11]PETSC ERROR: CUSOLVER error 7
+[11]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[11]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[11]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[11]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[11]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[11]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[11]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[11]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[11]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[14]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[14]PETSC ERROR: Error in external library
+[14]PETSC ERROR: CUSOLVER error 7
+[14]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[14]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[14]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[14]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[14]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[14]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[14]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[14]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[14]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[19]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[19]PETSC ERROR: Error in external library
+[19]PETSC ERROR: CUSOLVER error 7
+[19]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[19]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[19]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[19]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[19]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[19]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[19]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[19]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[19]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[36]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[36]PETSC ERROR: Error in external library
+[36]PETSC ERROR: CUSOLVER error 7
+[36]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[36]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[36]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[36]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[36]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[36]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[36]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[36]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[36]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[38]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[38]PETSC ERROR: Error in external library
+[38]PETSC ERROR: CUSOLVER error 7
+[38]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[38]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[38]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[38]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[38]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[38]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[38]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[38]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[38]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[15]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[15]PETSC ERROR: Error in external library
+[15]PETSC ERROR: CUSOLVER error 7
+[15]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[15]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[15]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[15]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[15]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[15]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[15]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[15]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[15]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[2]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[2]PETSC ERROR: Error in external library
+[2]PETSC ERROR: CUSOLVER error 7
+[2]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[2]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[2]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[2]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[2]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[2]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[2]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[2]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[2]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[4]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[4]PETSC ERROR: Error in external library
+[4]PETSC ERROR: CUSOLVER error 7
+[4]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[4]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[4]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[4]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[4]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[4]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[4]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[4]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[4]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[12]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[12]PETSC ERROR: Error in external library
+[12]PETSC ERROR: CUSOLVER error 7
+[12]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[12]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[12]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[12]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[12]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[12]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[12]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[12]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[12]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[25]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[25]PETSC ERROR: Error in external library
+[25]PETSC ERROR: CUSOLVER error 7
+[25]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[25]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[25]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[25]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[25]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[25]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[25]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[25]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[25]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[23]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[23]PETSC ERROR: Error in external library
+[23]PETSC ERROR: CUSOLVER error 7
+[23]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[23]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[23]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[23]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[23]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[23]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[23]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[23]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[23]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[7]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[7]PETSC ERROR: Error in external library
+[7]PETSC ERROR: CUSOLVER error 7
+[7]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[7]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[7]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[7]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[7]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[7]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[7]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[7]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[7]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[27]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[27]PETSC ERROR: Error in external library
+[27]PETSC ERROR: CUSOLVER error 7
+[27]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[27]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[27]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[27]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[27]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[27]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[27]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[27]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[27]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[35]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[35]PETSC ERROR: Error in external library
+[35]PETSC ERROR: CUSOLVER error 7
+[35]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[35]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[35]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[35]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[35]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[35]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[35]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[35]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[35]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[13]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[13]PETSC ERROR: Error in external library
+[13]PETSC ERROR: CUSOLVER error 7
+[13]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[13]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[13]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[13]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[13]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[13]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[13]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[13]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[13]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[32]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[32]PETSC ERROR: Error in external library
+[32]PETSC ERROR: CUSOLVER error 7
+[32]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[32]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[32]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[32]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[32]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[32]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[32]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[32]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[32]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[9]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[9]PETSC ERROR: Error in external library
+[9]PETSC ERROR: CUSOLVER error 7
+[9]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[9]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[9]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[9]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[9]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[9]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[9]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[9]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[9]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[6]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[6]PETSC ERROR: Error in external library
+[6]PETSC ERROR: CUSOLVER error 7
+[6]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[6]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[6]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[6]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[6]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[6]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[6]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[6]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[6]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[31]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[31]PETSC ERROR: Error in external library
+[31]PETSC ERROR: CUSOLVER error 7
+[31]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[31]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[31]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[31]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[31]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[31]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[31]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[31]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[31]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[26]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[26]PETSC ERROR: Error in external library
+[26]PETSC ERROR: CUSOLVER error 7
+[26]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[26]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[26]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[26]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[26]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[26]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[26]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[26]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[26]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[30]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[30]PETSC ERROR: Error in external library
+[30]PETSC ERROR: CUSOLVER error 7
+[30]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[30]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[30]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[30]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[30]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[30]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[30]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[30]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[30]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[17]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[17]PETSC ERROR: Error in external library
+[17]PETSC ERROR: CUSOLVER error 7
+[17]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[17]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[17]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[17]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[17]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[17]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[17]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[17]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[17]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[21]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[21]PETSC ERROR: Error in external library
+[21]PETSC ERROR: CUSOLVER error 7
+[21]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[21]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[21]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[21]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[21]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[21]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[21]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[21]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[21]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[16]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[16]PETSC ERROR: Error in external library
+[16]PETSC ERROR: CUSOLVER error 7
+[16]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[16]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[16]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[16]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[16]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[16]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[16]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[16]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[16]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[8]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[8]PETSC ERROR: Error in external library
+[8]PETSC ERROR: CUSOLVER error 7
+[8]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[8]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[8]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[8]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[8]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[8]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[8]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[8]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[8]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[22]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[22]PETSC ERROR: Error in external library
+[22]PETSC ERROR: CUSOLVER error 7
+[22]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[22]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[22]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[22]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[22]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[22]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[22]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[22]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[22]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[5]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[5]PETSC ERROR: Error in external library
+[5]PETSC ERROR: CUSOLVER error 7
+[5]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[5]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[5]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[5]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[5]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[5]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[5]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[5]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[5]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[0]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[0]PETSC ERROR: Error in external library
+[0]PETSC ERROR: CUSOLVER error 7
+[0]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[0]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[0]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[0]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[0]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[0]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[0]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[0]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[0]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[28]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[28]PETSC ERROR: Error in external library
+[28]PETSC ERROR: CUSOLVER error 7
+[28]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[28]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[28]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[28]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[28]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[28]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[28]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[28]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[28]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[39]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[39]PETSC ERROR: Error in external library
+[39]PETSC ERROR: CUSOLVER error 7
+[39]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[39]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[39]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[39]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[39]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[39]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[39]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[39]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[39]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[18]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[18]PETSC ERROR: Error in external library
+[18]PETSC ERROR: CUSOLVER error 7
+[18]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[18]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[18]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[18]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[18]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[18]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[18]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[18]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[18]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[24]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[24]PETSC ERROR: Error in external library
+[24]PETSC ERROR: CUSOLVER error 7
+[24]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[24]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[24]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[24]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[24]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[24]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[24]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[24]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[24]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[34]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[34]PETSC ERROR: Error in external library
+[34]PETSC ERROR: CUSOLVER error 7
+[34]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[34]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[34]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[34]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[34]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[34]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[34]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[34]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[34]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[3]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[3]PETSC ERROR: Error in external library
+[3]PETSC ERROR: CUSOLVER error 7
+[3]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[3]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[3]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[3]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[3]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[3]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[3]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[3]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[3]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[10]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[10]PETSC ERROR: Error in external library
+[10]PETSC ERROR: CUSOLVER error 7
+[10]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[10]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[10]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[10]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[10]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[10]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[10]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[10]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[10]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[1]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[1]PETSC ERROR: Error in external library
+[1]PETSC ERROR: CUSOLVER error 7
+[1]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[1]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[1]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[1]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[1]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[1]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[1]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[1]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[1]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[29]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[29]PETSC ERROR: Error in external library
+[29]PETSC ERROR: CUSOLVER error 7
+[29]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[29]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[29]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[29]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[29]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[29]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[29]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[29]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[29]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c
+[33]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[33]PETSC ERROR: Error in external library
+[33]PETSC ERROR: CUSOLVER error 7
+[33]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[33]PETSC ERROR: Petsc Release Version 3.12.1, unknown 
+[33]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named b26n13 by hmorgan Mon Nov  4 12:53:39 2019
+[33]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-hypre=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[33]PETSC ERROR: #1 PetscCUSOLVERDnGetHandle_Private() line 73 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[33]PETSC ERROR: #2 PetscCUSOLVERDnInitializeHandle() line 86 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/mat/impls/dense/seq/cuda/densecuda.cu
+[33]PETSC ERROR: #3 PetscCUDAInitialize() line 269 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[33]PETSC ERROR: #4 PetscOptionsCheckInitial_Private() line 650 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/init.c
+[33]PETSC ERROR: #5 PetscInitialize() line 1010 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/sys/objects/pinit.c

@@ -1,0 +1,23 @@
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch2>
+Subject: Job 798668: <vec_ops> in cluster <summit> Done
+
+Job <vec_ops> was submitted from host <login1> by user <hmorgan> in cluster <summit> at Thu Dec 19 11:50:00 2019
+Job was executed on host(s) <1*batch2>, in queue <batch>, as user <hmorgan> in cluster <summit> at Thu Dec 19 11:50:10 2019
+                            <42*h50n03>
+</ccs/home/hmorgan> was used as the home directory.
+</gpfs/alpine/csc314/proj-shared/hmorgan/hannah-vec-ops/petsc-v3.12> was used as the working directory.
+Started at Thu Dec 19 11:50:10 2019
+Terminated at Thu Dec 19 11:51:44 2019
+Results reported at Thu Dec 19 11:51:44 2019
+
+The output (if any) is above this job summary.
+

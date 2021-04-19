@@ -1,0 +1,78 @@
+[hmorgan@login5.summit ~]$ ls petsc-v3.12/arch-olcf-summit-opt/lib/
+libHYPRE-2.17.0.so  libctetgen.a  libflapack.a	libml.a		libpetsc.so	  libpetsc.so.3.12.0  petsc
+libHYPRE.so	    libfblas.a	  libmetis.so	libparmetis.so	libpetsc.so.3.12  libtriangle.a       pkgconfig
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libHYPRE-2.17.0.so | grep daxpy
+petsc-v3.12/arch-olcf-summit-opt/lib/libHYPRE-2.17.0.so:0000000000065300 t 00000017.plt_call.daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libHYPRE-2.17.0.so:00000000005ffee8 T daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libHYPRE-2.17.0.so:0000000000596e38 T hypre_daxpy
+petsc-v3.12/arch-olcf-summit-opt/lib/libHYPRE-2.17.0.so:00000000000ecb20 T hypre_p_daxpy
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libHYPRE.so | grep daxpy
+petsc-v3.12/arch-olcf-summit-opt/lib/libHYPRE.so:0000000000065300 t 00000017.plt_call.daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libHYPRE.so:00000000005ffee8 T daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libHYPRE.so:0000000000596e38 T hypre_daxpy
+petsc-v3.12/arch-olcf-summit-opt/lib/libHYPRE.so:00000000000ecb20 T hypre_p_daxpy
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libctetgen.a | grep daxpy
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libfblas.a | grep daxpy
+petsc-v3.12/arch-olcf-summit-opt/lib/libfblas.a:daxpy.o:                 U .TOC.
+petsc-v3.12/arch-olcf-summit-opt/lib/libfblas.a:daxpy.o:0000000000000008 T daxpy_
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a | grep daxpy
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dgbcon.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dgbrfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dgehrd.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dgerfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dgesvj.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dggbal.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dgglse.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dgsvj0.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dgsvj1.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dgtrfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dla_gbrfsx_extended.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dla_gerfsx_extended.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlahr2.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlahrd.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlapll.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dla_porfsx_extended.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlaqtr.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlarz.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dla_syrfsx_extended.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlatbs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlatdf.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlatps.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlatrd.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlatrs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dlatzm.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dorbdb.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dpbrfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dporfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dpprfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dptrfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dsgesv.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dspgst.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dsposv.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dsprfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dsptrd.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dstein.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dsygs2.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dsyrfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dsytd2.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dtbrfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dtgsy2.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dtprfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dtrevc.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dtrrfs.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:dtzrqf.o:                 U daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libflapack.a:zggbal.o:                 U daxpy_
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libmetis.so | grep daxpy
+petsc-v3.12/arch-olcf-summit-opt/lib/libmetis.so:0000000000017a20 T gk_daxpy
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libml.a | grep daxpy
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libparmetis.so | grep daxpy
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libpetsc.so | grep daxpy
+petsc-v3.12/arch-olcf-summit-opt/lib/libpetsc.so:000000000029a5fc t 00000d1a.plt_call.daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libpetsc.so:                 U daxpy_
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libpetsc.so.3.12 | grep daxpy
+petsc-v3.12/arch-olcf-summit-opt/lib/libpetsc.so.3.12:000000000029a5fc t 00000d1a.plt_call.daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libpetsc.so.3.12:                 U daxpy_
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libpetsc.so.3.12.0 | grep daxpy
+petsc-v3.12/arch-olcf-summit-opt/lib/libpetsc.so.3.12.0:000000000029a5fc t 00000d1a.plt_call.daxpy_
+petsc-v3.12/arch-olcf-summit-opt/lib/libpetsc.so.3.12.0:                 U daxpy_
+[hmorgan@login5.summit ~]$ nm -o petsc-v3.12/arch-olcf-summit-opt/lib/libtriangle.a | grep daxpy

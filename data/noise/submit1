@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#BSUB -P CSC314
+#BSUB -W 2:00
+#BSUB -nnodes 1
+#BSUB -alloc_flags gpumps
+#BSUB -J vec_ops
+#BSUB -o vec_ops.%J
+
+for run in {1..10}
+do
+	jsrun -n 6 -c 7 -g 1 -a 1 -d cyclic -b packed:2 -o vec_ops.n6_g1_c7_a1.10_9.${run}.${LSB_JOBID} ~/petsc-v3.12/src/vec/vec/examples/tests/hannah-vec-ops -n 1000000000 -vec_type mpicuda -log_view
+done
+

@@ -1,0 +1,23 @@
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+Warning: more than 1 task/rank assigned to a core
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 801369: <vec_ops> in cluster <summit> Done
+
+Job <vec_ops> was submitted from host <login4> by user <hmorgan> in cluster <summit> at Sun Dec 22 13:36:39 2019
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <hmorgan> in cluster <summit> at Sun Dec 22 13:36:47 2019
+                            <42*b35n13>
+</ccs/home/hmorgan> was used as the home directory.
+</gpfs/alpine/csc314/proj-shared/hmorgan/hannah-vec-ops/petsc-v3.12-fblaslapack> was used as the working directory.
+Started at Sun Dec 22 13:36:47 2019
+Terminated at Sun Dec 22 13:38:20 2019
+Results reported at Sun Dec 22 13:38:20 2019
+
+The output (if any) is above this job summary.
+

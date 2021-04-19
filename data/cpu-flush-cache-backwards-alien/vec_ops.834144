@@ -1,0 +1,16 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch3>
+Subject: Job 834144: <vec_ops> in cluster <summit> Done
+
+Job <vec_ops> was submitted from host <login1> by user <hmorgan> in cluster <summit> at Wed Jan 15 15:12:35 2020
+Job was executed on host(s) <1*batch3>, in queue <batch>, as user <hmorgan> in cluster <summit> at Wed Jan 15 15:12:44 2020
+                            <42*a32n08>
+</ccs/home/hmorgan> was used as the home directory.
+</gpfs/alpine/csc314/proj-shared/hmorgan/hannah-vec-ops/cpu-flush-cache-backwards-alien> was used as the working directory.
+Started at Wed Jan 15 15:12:44 2020
+Terminated at Wed Jan 15 16:48:58 2020
+Results reported at Wed Jan 15 16:48:58 2020
+
+The output (if any) is above this job summary.
+

@@ -1,0 +1,16 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch2>
+Subject: Job 713174: <vec_ops> in cluster <summit> Done
+
+Job <vec_ops> was submitted from host <login4> by user <hmorgan> in cluster <summit> at Thu Oct 31 12:31:23 2019
+Job was executed on host(s) <1*batch2>, in queue <batch>, as user <hmorgan> in cluster <summit> at Thu Oct 31 12:31:46 2019
+                            <42*h36n11>
+</ccs/home/hmorgan> was used as the home directory.
+</gpfs/alpine/csc314/proj-shared/hmorgan/hannah-vec-ops/pinned> was used as the working directory.
+Started at Thu Oct 31 12:31:46 2019
+Terminated at Thu Oct 31 12:34:52 2019
+Results reported at Thu Oct 31 12:34:52 2019
+
+The output (if any) is above this job summary.
+

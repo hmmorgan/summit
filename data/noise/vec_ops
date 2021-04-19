@@ -1,0 +1,16 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 841853: <vec_ops> in cluster <summit> Done
+
+Job <vec_ops> was submitted from host <login5> by user <hmorgan> in cluster <summit> at Mon Jan 20 14:32:39 2020
+Job was executed on host(s) <1*batch5>, in queue <batch>, as user <hmorgan> in cluster <summit> at Mon Jan 20 14:33:53 2020
+                            <42*h35n10>
+</ccs/home/hmorgan> was used as the home directory.
+</gpfs/alpine/csc314/proj-shared/hmorgan/hannah-vec-ops/noise> was used as the working directory.
+Started at Mon Jan 20 14:33:53 2020
+Terminated at Mon Jan 20 14:39:48 2020
+Results reported at Mon Jan 20 14:39:48 2020
+
+The output (if any) is above this job summary.
+

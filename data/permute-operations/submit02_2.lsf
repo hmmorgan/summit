@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#BSUB -P CSC314
+#BSUB -W 2:00
+#BSUB -nnodes 1
+#BSUB -alloc_flags gpumps
+#BSUB -J vec_ops
+#BSUB -o vec_ops.%J
+
+#for SIZE in {5000000..10000000..10000}
+for SIZE in {9860000..10000000..10000}
+do
+	jsrun -n 2 -c 21 -g 1 -p 42 -d cyclic -b packed:2 -o vec_ops.n2_g0_c21_p42.${SIZE}.${LSB_JOBID} ~/petsc/src/vec/vec/examples/tests/hannah-vec-ops-flush-cache -n $SIZE -vec_type mpi -log_view
+done
+

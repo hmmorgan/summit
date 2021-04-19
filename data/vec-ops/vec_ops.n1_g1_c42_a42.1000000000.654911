@@ -1,0 +1,25 @@
+[40]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[40]PETSC ERROR: Error in external library
+[40]PETSC ERROR: CUDA error 2
+[40]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[40]PETSC ERROR: Petsc Development GIT revision: v3.11.3-1715-gdd7154c  GIT Date: 2019-08-19 19:16:16 +0200
+[40]PETSC ERROR: /ccs/home/hmorgan/petsc/src/vec/vec/examples/tests/hannah-vec-ops on a arch-olcf-summit-opt named h50n15 by hmorgan Fri Sep 27 04:56:10 2019
+[40]PETSC ERROR: Configure options --with-cc=mpicc --with-cxx=mpiCC --with-fc=mpifort --with-shared-libraries=1 --with-debugging=no COPTFLAGS="-g -fast" CXXOPTFLAGS="-g -fast" FOPTFLAGS="-g -fast" --download-fblaslapack=1 --with-cuda=1 --with-cudac=nvcc CUDAFLAGS="-ccbin pgc++" --download-viennacl=1 --with-hdf5-dir=/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.4/hdf5-1.10.3-pgiul2yf4auv7krecd72t6vupd7e3qgn --download-metis=1 --download-parmetis=1 --download-triangle=1 --download-ctetgen=1 --download-ml=1 PETSC_ARCH=arch-olcf-summit-opt
+[40]PETSC ERROR: #1 VecCUDAAllocateCheck() line 35 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/vec/vec/impls/seq/seqcuda/veccuda2.cu
+[40]PETSC ERROR: #2 VecCreate_MPICUDA_Private() line 338 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/vec/vec/impls/mpi/mpicuda/mpicuda.cu
+[40]PETSC ERROR: #3 VecDuplicate_MPICUDA() line 125 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/vec/vec/impls/mpi/mpicuda/mpicuda.cu
+[40]PETSC ERROR: #4 VecDuplicate() line 365 in /autofs/nccs-svm1_home1/hmorgan/petsc/src/vec/vec/interface/vector.c
+[40]PETSC ERROR: #5 main() line 22 in hannah-vec-ops.c
+[40]PETSC ERROR: PETSc Option Table entries:
+[40]PETSC ERROR: -log_view
+[40]PETSC ERROR: -n 1000000000
+[40]PETSC ERROR: -vec_type mpicuda
+[40]PETSC ERROR: ----------------End of Error Message -------send entire error message to petsc-maint@mcs.anl.gov----------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 40 in communicator MPI_COMM_WORLD
+with errorcode 76.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
