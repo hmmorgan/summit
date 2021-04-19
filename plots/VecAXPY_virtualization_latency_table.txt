@@ -1,0 +1,11 @@
+\begin{tabular}[b]{| c | r r |} \hline 
+MPI ranks & latency & throughput \\ \hline 
+1 & 31 & 33000 \\ 
+2 & 33 & 33000 \\ 
+3 & 34 & 32000 \\ 
+4 & 38 & 32000 \\ 
+5 & 40 & 32000 \\ 
+6 & 43 & 33000 \\ 
+7 & 45 & 35000 \\ 
+8 & 46 & 35000 \\ 
+\hline \end{tabular}

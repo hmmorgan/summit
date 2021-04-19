@@ -1,0 +1,8 @@
+\begin{tabular}[b]{| l | r r | r r | r r |} \hline 
+Vec size & \multicolumn{2}{c |}{$10^3$ - $10^5$} & \multicolumn{2}{c |}{$10^5$ - $10^7$} & \multicolumn{2}{c |}{$10^7$ - $10^8$} \\ \hline 
+Operation & latency & throughput & latency & throughput & latency & throughput \\ \hline 
+VecDot & 4 & 4,408 & -119 & 2,509 & -356 & 2,417 \\ 
+VecAXPY & 3 & 6,140 & 79 & 3,538 & -525 & 3,430 \\ 
+VecSet & 1 & 25,149 & -316 & 2,784 & -2,508 & 2,389 \\ 
+VecCopy & 1 & 8,237 & -233 & 3,273 & -1,093 & 3,154 \\ 
+\hline \end{tabular}
